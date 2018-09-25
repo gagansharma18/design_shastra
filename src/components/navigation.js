@@ -7,7 +7,7 @@ class Navigation extends Component {
     render() {
         return (
             <aside id="fh5co-aside" role="complementary" className="border js-fullheight">
-                <h1 id="fh5co-logo"><a href="index.html">Marble</a></h1>
+                <h1 id="fh5co-logo"><a href="index.html">Design shastra</a></h1>
                 <nav id="fh5co-main-menu" role="navigation">
                     <ul>
                         <li><NavLink to="/home" activeClassName="fh5co-active">Home</NavLink></li>
