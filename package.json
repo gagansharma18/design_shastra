@@ -30,5 +30,5 @@
     "eject": "react-scripts eject",
     "deploy": "npm run build&&gh-pages -d build"
   },
-  "homepage": "http://localhost:3000/"
+  "homepage": "https://gagansharma18.github.io/design_shastra/public/"
 }
