@@ -94,7 +94,6 @@ figure {
   width: 20%;
   position: fixed;
   bottom: 0;
-  overflow-y: scroll;
   z-index: 1001;
   background: rgba(255, 255, 255, 0.6);
   -webkit-transition: 0.5s;
