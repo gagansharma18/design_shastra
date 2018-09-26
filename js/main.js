@@ -161,11 +161,15 @@ window.GLOBAL_FUNCTIONS = (function () {
         mobileMenuOutsideClick:mobileMenuOutsideClick,
         sliderMain:sliderMain,
         applyAllFunctions:function(){
-            fullHeight();
-            contentWayPoint();
-            burgerMenu();
-            mobileMenuOutsideClick();
-            sliderMain();
+            imagesLoaded(document.querySelector("body"), function() {
+                fullHeight();
+                contentWayPoint();
+                burgerMenu();
+                mobileMenuOutsideClick();
+                sliderMain();
+                document.querySelector("body").classList.remove('loading');
+            });
+
         }
     }
 }());
