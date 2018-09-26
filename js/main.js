@@ -162,10 +162,11 @@ window.GLOBAL_FUNCTIONS = (function () {
         sliderMain:sliderMain,
         applyAllFunctions:function(){
             imagesLoaded(document.querySelector("body"), function() {
+                console.log("LOADED");
                 fullHeight();
                 contentWayPoint();
-                burgerMenu();
-                mobileMenuOutsideClick();
+                //burgerMenu();
+                //mobileMenuOutsideClick();
                 sliderMain();
                 document.querySelector("body").classList.remove('loading');
             });
